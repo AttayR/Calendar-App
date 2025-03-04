@@ -10,14 +10,20 @@
     "test": "jest"
   },
   "dependencies": {
+    "@expo/vector-icons": "^14.0.4",
     "@react-native-google-signin/google-signin": "^13.1.0",
+    "@react-native-vector-icons/evil-icons": "^1.10.1",
+    "@react-native-vector-icons/fontawesome6": "^6.7.1",
     "@reduxjs/toolkit": "^2.5.0",
     "amazon-cognito-identity-js": "^6.3.12",
+    "axios": "^1.8.1",
     "react": "18.3.1",
     "react-native": "0.76.5",
+    "react-native-calendars": "^1.1310.0",
     "react-native-camera-kit": "^14.1.0",
     "react-native-permissions": "^5.2.3",
     "react-native-qrcode-scanner": "^1.5.5",
+    "react-native-vector-icons": "^10.2.0",
     "react-redux": "^9.2.0",
     "redux": "^5.0.1"
   },
@@ -33,6 +39,7 @@
     "@react-native/metro-config": "0.76.5",
     "@react-native/typescript-config": "0.76.5",
     "@types/react": "^18.2.6",
+    "@types/react-redux": "^7.1.34",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.6.3",
     "eslint": "^8.19.0",

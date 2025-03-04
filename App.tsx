@@ -1,15 +1,12 @@
 import React from 'react';
 import {Provider} from 'react-redux';
-import { store } from './src/Redux/store';
-import CounterScreen from './src/screens/CounterScreen';
-import Home from './src/screens/Home';
+import {store} from './src/Redux/store';
+import Calendar from './src/screens/Calendar';
 
 const App = () => {
   return (
     <Provider store={store}>
-      <Home/>
-      {/* <QRCodeScannerScreen/> */}
-      <CounterScreen/>
+      <Calendar />
     </Provider>
   );
 };

@@ -1,2 +1,0 @@
-export const QR_SCAN_SUCESS = 'QR_SCAN_SUCCESS';
-export const QR_SCAN_FAILURE = 'QR_SCAN_FAILURE';
