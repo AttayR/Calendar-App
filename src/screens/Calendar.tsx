@@ -99,13 +99,14 @@ const Calendar = () => {
               arrowColor: 'white',
               textSectionTitleColor: 'skyblue',
               todayTextColor: '#DA3171',
-              textDisabledColor: 'gray',
+              textDisabledColor: '#f5f5f5',
               selectedDayBackgroundColor: 'red',
               selectedDayTextColor: 'white',
               textDayFontSize: 12,
 
+
             }}
-            hideExtraDays={true}
+            hideExtraDays={false}
             style={styles.calendar}
             markedDates={Object.keys(events).reduce((acc: any, date) => {
               acc[date] = {
@@ -217,7 +218,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   calendarWrapper: {
-    marginTop: -10,
+    marginTop: -15,
   },
   calendar: {
     borderRadius: 20,
@@ -244,7 +245,7 @@ const styles = StyleSheet.create({
   },
   modalText: {
     color: '#FFFFFF',
-    fontSize: 15,
+    fontSize: 12,
     textAlign: 'center',
     marginBottom: 10,
   },
